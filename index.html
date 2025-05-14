@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Link CSS  -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Website Sederhana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profil">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeri">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#komentar">Form Komentar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobi">Hobi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Konten -->
+    <div class="container mt-5">
+
+        <!-- Dashboard -->
+        <section id="dashboard" class="dashboard-section">
+            <div class="container text-center text-white">
+                <h2>Selamat datang di website saya</h2>
+            </div>
+        </section>
+
+        <!-- Profil -->
+        <section id="profil" class="mt-5">
+            <h2>Profil</h2>
+            <div class="row">
+                <!-- Foto Profil -->
+                <div class="col-md-4 text-center">
+                    <img src="bagas.jpg" alt="Foto Profil" class="img-fluid rounded">
+                </div>
+                
+                <!-- Informasi Profil -->
+                <div class="col-md-8">
+                    <ul class="list-unstyled">
+                        <li><strong>Nama:</strong> Bagas Darma Saputra</li>
+                        <li><strong>NPM:</strong> 2313020225</li>
+                        <li><strong>Kelas:</strong> 2E</li>
+                        <li><strong>Prodi:</strong> Teknik Informatika</li>
+                        <li><strong>Alamat:</strong> Jl. Raya Ngadiluwih, Wates, Tawang, Semanding, No. 4, Kediri Kabupaten</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeri -->
+        <section id="galeri" class="mt-5">
+            <h2>Galeri</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="galeri1.jpg" alt="Gambar 1" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="galeri2.jpg" alt="Gambar 2" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="galeri3.jpeg" alt="Gambar 3" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <!-- Form Komentar -->
+        <section id="komentar" class="mt-5">
+            <h2>Form Komentar</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Komentar</label>
+                    <textarea class="form-control" id="comment" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+        </section>
+
+        <!-- Hobi -->
+        <section id="hobi" class="mt-5">
+            <h2>Hobi</h2>
+            <div class="row">
+                <!-- Hobi 1 -->
+                <div class="col-md-4 text-center">
+                    <img src="hobi1.png" alt="Membaca Buku" class="img-fluid rounded mb-3">
+                    <h5>Membaca Buku</h5>
+                    <p>Saya suka membaca buku fiksi dan nonfiksi, terutama yang berkaitan dengan pengembangan diri dan teknologi.</p>
+                </div>
+
+                <!-- Hobi 2 -->
+                <div class="col-md-4 text-center">
+                    <img src="hobi2.jpg" alt="Bermain Musik" class="img-fluid rounded mb-3">
+                    <h5>Bermain Musik</h5>
+                    <p>Bermain gitar adalah salah satu cara saya melepas stres dan mengekspresikan diri melalui musik.</p>
+                </div>
+
+                <!-- Hobi 3 -->
+                <div class="col-md-4 text-center">
+                    <img src="hobi3.png" alt="Bersepeda" class="img-fluid rounded mb-3">
+                    <h5>Bersepeda</h5>
+                    <p>Di waktu luang, saya senang bersepeda keliling kota atau ke tempat-tempat alam untuk menyegarkan pikiran.</p>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Link Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+section#galeri img {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form .form-label {
+    font-weight: bold;
+}
+
+/* Styling Dashboard */
+.dashboard-section {
+    background-image: url('dashboard.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.dashboard-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Styling untuk bagian Profil */
+#profil .img-fluid {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}
+
+#profil ul {
+    padding-left: 0;
+}
+
+#profil ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#profil ul li strong {
+    font-weight: bold;
+}
+
+/* Styling untuk bagian Hobi */
+#hobi img {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+#hobi img:hover {
+    transform: scale(1.05);
+}
+
+#hobi h5 {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
